@@ -18,8 +18,8 @@
     qui retourne ce paramètre "nb";
 */
 
-function returnParameter(5) {
-    return 5;
+function returnParameter(nb) {
+    return nb;
 }
 
 //  écrire votre code sous ce commentaire
