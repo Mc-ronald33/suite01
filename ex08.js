@@ -31,3 +31,24 @@ isAllEven([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
 
+
+function isAllEven(table){
+    for(let i =0; i < table.length; i++){
+     if(isEven(table[i]) === 0){
+         return 0;
+     }
+
+    }
+return 1;
+
+}
+
+
+function isEven(nb) {
+    if (nb % 2 === 0){
+ return 1;
+    }
+     else {
+        return 0;
+ } 
+}
